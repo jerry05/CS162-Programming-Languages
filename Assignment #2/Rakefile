@@ -1,0 +1,5 @@
+task :default do
+	10.times do |x|
+		`scala Main clr #{x} save`
+	end
+end
